@@ -7,7 +7,7 @@ export const Articles = () => {
   useEffect(() => {
     const fetchArticles = async () => {
       try {
-        const response = await fetch('https://fakestoreapi.com/products');
+        const response = await fetch("https://fakestoreapi.com/products");
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }

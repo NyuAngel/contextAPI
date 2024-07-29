@@ -25,7 +25,7 @@ body {
 }
 
 .dark-mode button {
-  background-color: #333333;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -79,7 +79,7 @@ body {
 
 /* Modo Oscuro para Header Navigation */
 .dark-mode .header-nav nav {
-  background-color: #0a0a0a; /* Color de fondo del nav en modo oscuro */
+  background-color: #080808; /* Color de fondo del nav en modo oscuro */
 }
 
 .dark-mode .header-nav a {
